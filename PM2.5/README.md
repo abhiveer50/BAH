@@ -75,14 +75,16 @@ This project aims to estimate surface-level PM2.5 concentrations across India by
 
 ---
 
-## Key Findings
+## Key Findings and Results
 
 - **XG Boost** outperformed Random Forest after tuning in estimating PM2.5.
+- | Metric | Score |
+|--------|-------|
+| **MSE** | 523.73 |
+| **RMSE** | 22.88 |
+| **R²** | 0.8634 |
 - **Meteorology alone** explains a substantial portion of PM2.5 variability.
 - A **PM2.5 heatmap** was generated across India using model predictions to visualize spatial pollution patterns
 - The methodology enables policymakers to **assess the impact of emission control measures** independently of weather effects.
 
----
-
-## Project Structure
 
